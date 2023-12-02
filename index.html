@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporarily Disabled :(</title>
+    <style>
+        @font-face {
+            font-family: tf2;
+            src: url("fonts/tf2build.ttf");
+        }
+
+        body {
+            margin:0;
+            background-color: rgb(55,55,55);
+            font-family: tf2;
+        }
+
+        .main-menu .title{
+            position: relative;
+            font-size: 72px;
+            text-align: center;
+        }
+        .main-menu .title div {
+            color: transparent;
+            text-align: center;
+            font-size: 72px;
+            background-image: linear-gradient(90deg, white, green);
+            background-clip: text;
+            -webkit-background-clip: text;
+            position: absolute; 
+            width: 100%;
+        }
+        .main-menu .title::after {
+            text-shadow: 10px 5px 0 rgb(0, 15, 0);
+            color: transparent;
+        }
+        .main-menu .title::after {
+            content: "Unboxing Simulator";
+        }
+
+        .main-menu, .credits {
+            display: block;
+            margin: auto;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            width: fit-content;
+            height: fit-content;
+            padding: 2px 26px;
+            background-color: rgba(80,80,80,0.4);
+            border-radius: 25px;
+            border: 5px dashed rgb(150,150,150);
+        }
+
+        .main-menu h2 {
+            color: white;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-menu animate-border">
+        <h1 class="title"><div>Unboxing Simulator</div></h1>
+        <h2>Unfortunately, the website will be temporarily disabled due to issues with hosting.<br>There is no expected time when this will be fixed.</h2>
+    </div>
+</body>
+</html>
